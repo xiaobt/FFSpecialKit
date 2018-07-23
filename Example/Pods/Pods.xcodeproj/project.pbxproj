@@ -11,7 +11,6 @@
 		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC03D4DDF697E0D7132026C66EEB8D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0187A60FD66B5C2039FAED5ACFEACDE7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8780631EE1C88CC8211E0F99AD62C7 /* QuartzCore.framework */; };
 		0248B918B77B17B656F006223122D3C3 /* RACImmediateScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF5017B21118526F4D55F736AC0D280 /* RACImmediateScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		025650B92105A2E600D665F6 /* FFSecialDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025650B82105A2E600D665F6 /* FFSecialDetailView.xib */; };
 		026B57317CE9B625CD3C58F818E2B45D /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = F27607BFB3651BC1D023D6E44E7C75C5 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0487DA9ADB2295CE3C902BD3ECCB231C /* RACBlockTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E54EC88E5A6EDC9E1A23C60AAA906BE /* RACBlockTrampoline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		051A59F66B69D045DF535131943AE123 /* RACSubscriptingAssignmentTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4DC7169085E4EE9C7008180C13514 /* RACSubscriptingAssignmentTrampoline.m */; };
@@ -615,7 +614,6 @@
 		008CE2B9871403EAC99DEBB0DD3A393E /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		00CCFB4A159B4EBF36418B15DF056F40 /* FFAPIsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFAPIsKit.xcconfig; sourceTree = "<group>"; };
 		01A2BD034A6F5F195196F6858E37A2F2 /* FFSpecialController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSpecialController.h; sourceTree = "<group>"; };
-		025650B82105A2E600D665F6 /* FFSecialDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFSecialDetailView.xib; sourceTree = "<group>"; };
 		034535FB11A2E6C34EF4A554526F7AA8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		03B264C5C438C18403BCA075A4F2985F /* FFSpecialListReformerKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFSpecialListReformerKeys.h; path = FFReformerKeysKit/Classes/reformerKeys/FFSpecialListReformerKeys.h; sourceTree = "<group>"; };
 		040E1491DF5B1961FA1CA711FFA73B50 /* RACIndexSetSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACIndexSetSequence.m; path = ReactiveCocoa/RACIndexSetSequence.m; sourceTree = "<group>"; };
@@ -1223,15 +1221,6 @@
 			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		025650B72105A2E600D665F6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				025650B82105A2E600D665F6 /* FFSecialDetailView.xib */,
-			);
-			name = Resources;
-			path = FFSpecialKit/Resources;
-			sourceTree = "<group>";
-		};
 		0DDE6DD8F6A4DE78B46BC613E2B6DBF8 /* Pods-FFSpecialKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1528,7 +1517,6 @@
 			children = (
 				CA6A9BDEF1077F1B89D4CF16A6E3A3F5 /* ReplaceMe.m */,
 				3D3BFB9ADCB150DEEFCEDE147E1CDC09 /* Pod */,
-				025650B72105A2E600D665F6 /* Resources */,
 				FF928F1CC77B0A2F30C2267875EE2EE0 /* Special(专题) */,
 				78CB390FE513CA7FAA6B189BE44C1527 /* Support Files */,
 			);
@@ -2666,7 +2654,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				025650B92105A2E600D665F6 /* FFSecialDetailView.xib in Resources */,
 				4DAB90746B5B0D4658BB935811D8CC9E /* FFSpecialKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

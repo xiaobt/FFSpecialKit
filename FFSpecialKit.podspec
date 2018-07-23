@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'FFSpecialKit/Classes/**/*'
   
   s.resource_bundles = {
-    'FFSpecialKit' => ['FFSpecialKit/Resources/*']
+   'FFSpecialKit' => ['FFSpecialKit/Classes/**/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
