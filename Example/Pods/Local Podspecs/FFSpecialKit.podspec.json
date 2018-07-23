@@ -20,13 +20,16 @@
   },
   "source_files": "FFSpecialKit/Classes/**/*",
   "dependencies": {
-    "FFMainViewKit": [
-
-    ],
     "FFAPIsKit": [
 
     ],
     "FFReformerKeysKit": [
+
+    ],
+    "FFMainViewKit": [
+
+    ],
+    "FFToolsKit": [
 
     ],
     "FFCategoryKit": [

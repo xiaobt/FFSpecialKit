@@ -27,6 +27,7 @@ PODS:
     - FFConfigsKit
     - FFMainViewKit
     - FFReformerKeysKit
+    - FFToolsKit
     - Masonry
     - ReactiveCocoa (~> 2.5)
   - FFToolsKit (0.1.0):
@@ -59,7 +60,7 @@ SPEC CHECKSUMS:
   FFConfigsKit: 889d7011f15fd8334830efb018b339533fe42b0c
   FFMainViewKit: 812cdf506867166b53abace1e6daec640e8d2116
   FFReformerKeysKit: a7f1fde3d20c7e8c90b5974ee2bb80732d87f86e
-  FFSpecialKit: 750db09316da6385d84866146c37e1380b3f66f4
+  FFSpecialKit: 30c64715bda4cd2a6340831e6b67faa0c52f5b4a
   FFToolsKit: 4f01f9d1fddc307d6e5dfbf6bc5538a260340032
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
