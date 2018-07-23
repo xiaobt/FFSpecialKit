@@ -21,7 +21,7 @@
   "source_files": "FFSpecialKit/Classes/**/*",
   "resource_bundles": {
     "FFSpecialKit": [
-      "FFSpecialKit/Classes/**/**/*.xib"
+      "FFSpecialKit/Classes/**/*.xib"
     ]
   },
   "dependencies": {
