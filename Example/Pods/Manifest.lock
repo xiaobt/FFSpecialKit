@@ -14,15 +14,20 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - CTMediator (18)
   - FFAPIsKit (0.3.0):
     - AFNetworking (~> 3.1.0)
     - FFToolsKit
+  - FFAuthorKit_Category (0.1.0):
+    - CTMediator
+    - FFAPIsKit
   - FFCategoryKit (0.1.0)
   - FFConfigsKit (0.1.0)
   - FFMainViewKit (0.1.0)
   - FFReformerKeysKit (0.1.0)
   - FFSpecialKit (0.4.0):
     - FFAPIsKit
+    - FFAuthorKit_Category
     - FFCategoryKit
     - FFConfigsKit
     - FFMainViewKit
@@ -30,6 +35,7 @@ PODS:
     - FFToolsKit
     - Masonry
     - ReactiveCocoa (~> 2.5)
+    - YYWebImage
   - FFToolsKit (0.1.0):
     - FMDB
     - MBProgressHUD
@@ -45,6 +51,13 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - FFSpecialKit (from `../`)
@@ -55,17 +68,22 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
   FFAPIsKit: c115aaa1944fd7e5d18b134aa9faeb5b8d642ecf
+  FFAuthorKit_Category: 434e358d1c78201134341d5a0fe457dae06dadac
   FFCategoryKit: 34f7cfec78e6f0b8115f55f3b1f4f1ff1bbe0013
   FFConfigsKit: 889d7011f15fd8334830efb018b339533fe42b0c
   FFMainViewKit: 812cdf506867166b53abace1e6daec640e8d2116
   FFReformerKeysKit: a7f1fde3d20c7e8c90b5974ee2bb80732d87f86e
-  FFSpecialKit: 4248e7da3f7bd777f1bb9015e51e233179929e79
+  FFSpecialKit: 8fb949b6429f58739bbf178b236487141073fdf0
   FFToolsKit: 4f01f9d1fddc307d6e5dfbf6bc5538a260340032
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
 PODFILE CHECKSUM: 3794c5a05e8651f7a5b3a1a8cd903f645a04f613
 

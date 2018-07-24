@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFSpecialKit'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of FFSpecialKit.'
 
 # This description is used to generate tags and improve search results.
@@ -45,8 +45,10 @@ TODO: Add long description of the pod here.
   s.dependency 'FFToolsKit'
   s.dependency 'FFCategoryKit'
   s.dependency 'FFConfigsKit'
+  s.dependency 'FFAuthorKit_Category'
   
   #三方
+  s.dependency 'YYWebImage'
   s.dependency 'Masonry'
   s.dependency 'ReactiveCocoa', '~> 2.5'
   

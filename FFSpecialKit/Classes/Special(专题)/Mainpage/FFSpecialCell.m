@@ -11,7 +11,6 @@
 #import "FFSpecialCellBottomView.h"
 #import "FFSpecialListReformerKeys.h"
 #import "FFAuthorListReformerKeys.h"
-//#import "FFAuthorListReformer.h" //先注释
 
 @interface FFSpecialCell ()
 
@@ -141,13 +140,15 @@
 
 #pragma mark - handle data
 - (void)handleData {
-   /*先注释
     @weakify(self)
     [RACObserve(self, dataDict) subscribeNext:^(NSDictionary *data) {
         @strongify(self)
     
-        FFAuthorListReformer *reformer = [[FFAuthorListReformer alloc] init];
-        NSDictionary *author = [reformer reformData:data[kAuthorReformer]];
+//        FFAuthorListReformer *reformer = [[FFAuthorListReformer alloc] init];
+//        NSDictionary *author = [reformer reformData:data[kAuthorReformer]];
+        CTMediator *mediator = [[CTMediator alloc] init];
+        NSDictionary *author = [mediator authorReformerWithOriginData:data[kAuthorReformer]];
+        
         [self.pictureView yy_setImageWithURL:data[kSpecialPropertyListKeyPictureURL] placeholder:[UIImage imageNamed:@"placehodler"]];
         [self.headImgView yy_setImageWithURL:author[kAuthorPropertyListHeaderURL] placeholder:[UIImage imageNamed:@"pc_default_avatar"]];
         self.identityLabel.text = data[kSpecialPropertyListKeyAuthorIdentity];
@@ -172,7 +173,6 @@
             }
         }];;
     }];
-    */
 }
 
 #pragma mark - getter
