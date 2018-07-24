@@ -22,7 +22,7 @@
     self.title = @"专题详情";
     self.view.backgroundColor = [UIColor greenColor];
     
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[[NSBundle bundleForClass:[self class]] resourcePath] stringByAppendingPathComponent:@"FFSpecialKit.bundle"]];
     self.detailView = [bundle loadNibNamed:@"FFSecialDetailView" owner:nil options:nil].lastObject;
     [self.view addSubview:self.detailView];
 }
