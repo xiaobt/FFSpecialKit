@@ -23,7 +23,7 @@
     self.view.backgroundColor = [UIColor greenColor];
     
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    self.detailView = [bundle loadNibNamed:@"FFSecialDetailView" owner:self options:nil].lastObject;
+    self.detailView = [bundle loadNibNamed:@"FFSecialDetailView" owner:nil options:nil].lastObject;
     [self.view addSubview:self.detailView];
 }
 
